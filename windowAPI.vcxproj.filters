@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{d4228325-ab86-4575-8d38-59949d73a0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{84513b37-b08c-49e4-bd15-6f8f6752b18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{8785790c-f93f-411d-90ff-bd2e05bd6334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{ddfb3dc3-ec5a-4752-880c-db14429b78a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{73affc36-76a7-43ee-9dc2-13a65e5a5209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{dbe4a488-41b4-49cf-8cff-49dbace1d532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{b0748259-6cd0-418a-aed2-412f85d75813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{51ba2134-09a6-4e4a-a113-fec61f8f954a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{fb20fc3d-f78c-4396-a07a-e840a861adde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{636d27ed-03a5-48da-b1cf-b7f6dad3d4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\action">
+      <UniqueIdentifier>{936fa078-09d7-4d41-8553-9de447d9f438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\base">
+      <UniqueIdentifier>{e85a784a-35ad-47e1-9085-f38ac5c73efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{be58ca8a-bca2-418c-81ad-73ed7f21da6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능">
+      <UniqueIdentifier>{c49c04c8-8461-4a20-9615-0c38133c2f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\데이터베이스">
+      <UniqueIdentifier>{97cc2160-d159-4f8d-a534-26df3135d3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\인벤토리">
+      <UniqueIdentifier>{34394675-32e6-4952-903b-ff25232d4ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\UI">
+      <UniqueIdentifier>{5d2aa604-d1bc-41ce-b2e7-f6fb7cc7da20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\데이터 저장소">
+      <UniqueIdentifier>{4c430e41-1e46-4e90-9b8d-41a972776ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\미작업">
+      <UniqueIdentifier>{e2cdfd1b-9a5e-4b93-beef-c47204683bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\타이틀씬">
+      <UniqueIdentifier>{ec87aecc-e05a-43a3-83a8-b5569fbe0ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\아이템">
+      <UniqueIdentifier>{54c9f651-2b02-47c4-ab6c-b07761f774cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\아이템\아이템">
+      <UniqueIdentifier>{d6e0f25d-2227-4d4b-8e76-9cd65979be80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\아이템\아이템\1. 공격형 아이템">
+      <UniqueIdentifier>{9e94258a-2808-4011-8e61-0efa6529f40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\아이템\아이템\2. 방어형 아이템">
+      <UniqueIdentifier>{73d20205-1392-40d9-871f-d57c01484da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\아이템\아이템\3. 기능형 아이템">
+      <UniqueIdentifier>{9b91fc53-ae01-468c-bade-769d3e29a10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\아이템\아이템\4. 저주받은 아이템">
+      <UniqueIdentifier>{8f71adea-c528-47f9-b41d-075d5681dd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\아이템\아이템\5. 옷">
+      <UniqueIdentifier>{d8aea525-ada6-496e-8649-118ad9ee819f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\아이템\아이템\아이템 기본 클래스">
+      <UniqueIdentifier>{d5b0e706-e5e9-409d-9c7d-32a81d23068a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\플레이어 홈">
+      <UniqueIdentifier>{6a43152d-9c58-46e5-8524-8311e6842bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\플레이어 홈\아르카나">
+      <UniqueIdentifier>{cfd24f04-b4ba-4a0f-bc96-ae5114db5d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\플레이어 홈\옷장">
+      <UniqueIdentifier>{ea801a05-dbd4-43d9-99a4-40586de1ce4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\플레이어 홈\유물">
+      <UniqueIdentifier>{a6aeca55-064e-4973-b1fa-461e85f3b965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\player">
+      <UniqueIdentifier>{c1f57eca-38a2-4bb4-84b9-6562fd466030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\player\Player">
+      <UniqueIdentifier>{852efa26-44a5-4506-a83f-4f52538370b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\player\state">
+      <UniqueIdentifier>{bdff7127-2186-447d-873d-913bace8933d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\기능\상점">
+      <UniqueIdentifier>{75a07e4b-acb3-475c-a852-fe5a068d4af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy">
+      <UniqueIdentifier>{0a01e6b1-41cb-47c7-a32b-0ac347d0f31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\skill">
+      <UniqueIdentifier>{a04e188a-09bd-4b49-b0ee-924e5fdc14e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Particle">
+      <UniqueIdentifier>{1f8a00b9-472a-422b-a68e-36a89f234dc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>2DGameFramework\action</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="dtdManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="printManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>playGround\base</Filter>
+    </ClInclude>
+    <ClInclude Include="streamManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="video.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TileClass.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="dImage.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="renderManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>playGround\기능\player\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Gaia_Shovel.h">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Iflits_MatchStick.h">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Rudra_Vane.h">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Siva_waterbottle.h">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Taranis_Battery.h">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Giant_Heart.h">
+      <Filter>playGround\기능\아이템\아이템\2. 방어형 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperCarrotCake.h">
+      <Filter>playGround\기능\아이템\아이템\2. 방어형 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBasic.h">
+      <Filter>playGround\기능\아이템\아이템\아이템 기본 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSetting.h">
+      <Filter>playGround\기능\아이템\아이템\아이템 기본 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>playGround\기능\인벤토리</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemHeader.h">
+      <Filter>playGround\기능\데이터베이스</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>playGround\기능\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveDataManager.h">
+      <Filter>playGround\기능\데이터 저장소</Filter>
+    </ClInclude>
+    <ClInclude Include="skillManager.h">
+      <Filter>playGround\기능\미작업</Filter>
+    </ClInclude>
+    <ClInclude Include="gameKey.h">
+      <Filter>playGround\기능\미작업</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="slideState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="pbaoeState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="kickState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="summonState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="walkState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="jumpState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="jokeposeState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="idleState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="hurtState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="hoodState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="groundSlamState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="getupState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="forehandState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="fallState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="deadState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="dashState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="backhandState.h">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClInclude>
+    <ClInclude Include="testField.h">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Home_Arcana.h">
+      <Filter>playGround\기능\플레이어 홈\아르카나</Filter>
+    </ClInclude>
+    <ClInclude Include="Home_Closet.h">
+      <Filter>playGround\기능\플레이어 홈\옷장</Filter>
+    </ClInclude>
+    <ClInclude Include="Home_Lelics.h">
+      <Filter>playGround\기능\플레이어 홈\유물</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHomeFunction.h">
+      <Filter>playGround\기능\플레이어 홈</Filter>
+    </ClInclude>
+    <ClInclude Include="DateBaseManager.h">
+      <Filter>playGround\기능\데이터베이스</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardCloth_Yellow.h">
+      <Filter>playGround\기능\아이템\아이템\5. 옷</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardCloth_Red.h">
+      <Filter>playGround\기능\아이템\아이템\5. 옷</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardCloth_Green.h">
+      <Filter>playGround\기능\아이템\아이템\5. 옷</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardCloth_Blue.h">
+      <Filter>playGround\기능\아이템\아이템\5. 옷</Filter>
+    </ClInclude>
+    <ClInclude Include="Merchant_Dungeon.h">
+      <Filter>playGround\기능\상점</Filter>
+    </ClInclude>
+    <ClInclude Include="Merchant_Country.h">
+      <Filter>playGround\기능\상점</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthZoner.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyAttackState.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyDeathState.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyHurtState.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyIdleState.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyMoveState.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyState.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="fireBoss.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="flameZoner.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ghoul.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ghoulLarge.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="golem.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="greenKnight.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="greenSummoner.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="iceBoss.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="knight.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="mimic.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="orb.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="redKnight.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="redSummoner.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="summoner.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="blobRoller.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="blueKnight.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="blueSummoner.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatEllipse.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatRect.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="waterZone.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="bubble.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="burn.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="fireCross.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="fireDash.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="iceSpear.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBeam.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningJump.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningWave.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>2DGameFramework\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManeager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iceWall.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="frostWall.h">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="village.h">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClInclude>
+    <ClInclude Include="dg.h">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClInclude>
+    <ClInclude Include="home.h">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>2DGameFramework\action</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="dtdManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="printManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>playGround\base</Filter>
+    </ClCompile>
+    <ClCompile Include="streamManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TileClass.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="dImage.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="renderManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>playGround\기능\player\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Gaia_Shovel.cpp">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Iflits_MatchStick.cpp">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Rudra_Vane.cpp">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Siva_waterbottle.cpp">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Taranis_Battery.cpp">
+      <Filter>playGround\기능\아이템\아이템\1. 공격형 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Giant_Heart.cpp">
+      <Filter>playGround\기능\아이템\아이템\2. 방어형 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperCarrotCake.cpp">
+      <Filter>playGround\기능\아이템\아이템\2. 방어형 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBasic.cpp">
+      <Filter>playGround\기능\아이템\아이템\아이템 기본 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="DateBaseManager.cpp">
+      <Filter>playGround\기능\데이터베이스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>playGround\기능\인벤토리</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>playGround\기능\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveDataManager.cpp">
+      <Filter>playGround\기능\데이터 저장소</Filter>
+    </ClCompile>
+    <ClCompile Include="skillManager.cpp">
+      <Filter>playGround\기능\미작업</Filter>
+    </ClCompile>
+    <ClCompile Include="gameKey.cpp">
+      <Filter>playGround\기능\미작업</Filter>
+    </ClCompile>
+    <ClCompile Include="state.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="slideState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="pbaoeState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="summonState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="walkState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="kickState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="jumpState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="jokeposeState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="idleState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="hurtState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="hoodState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="groundSlamState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="getupState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="forehandState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="fallState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="deadState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="dashState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="backhandState.cpp">
+      <Filter>playGround\기능\player\state</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClCompile>
+    <ClCompile Include="testField.cpp">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Home_Arcana.cpp">
+      <Filter>playGround\기능\플레이어 홈\아르카나</Filter>
+    </ClCompile>
+    <ClCompile Include="Home_Closet.cpp">
+      <Filter>playGround\기능\플레이어 홈\옷장</Filter>
+    </ClCompile>
+    <ClCompile Include="Home_Lelics.cpp">
+      <Filter>playGround\기능\플레이어 홈\유물</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardCloth_Yellow.cpp">
+      <Filter>playGround\기능\아이템\아이템\5. 옷</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardCloth_Red.cpp">
+      <Filter>playGround\기능\아이템\아이템\5. 옷</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardCloth_Green.cpp">
+      <Filter>playGround\기능\아이템\아이템\5. 옷</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardCloth_Blue.cpp">
+      <Filter>playGround\기능\아이템\아이템\5. 옷</Filter>
+    </ClCompile>
+    <ClCompile Include="Merchant_Dungeon.cpp">
+      <Filter>playGround\기능\상점</Filter>
+    </ClCompile>
+    <ClCompile Include="Merchant_Country.cpp">
+      <Filter>playGround\기능\상점</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthZoner.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyAttackState.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyDeathState.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyHurtState.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyIdleState.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyMoveState.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyState.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="fireBoss.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="flameZoner.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ghoul.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ghoulLarge.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="golem.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="greenKnight.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="greenSummoner.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="iceBoss.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="knight.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="mimic.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="orb.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="redKnight.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="redSummoner.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="summoner.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="blobRoller.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="blueKnight.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="blueSummoner.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatEllipse.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatRect.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="waterZone.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="burn.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="fireCross.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="fireDash.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="iceSpear.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBeam.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningJump.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningWave.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>2DGameFramework\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManeager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="iceWall.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="frostWall.cpp">
+      <Filter>2DGameFramework\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="village.cpp">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClCompile>
+    <ClCompile Include="dg.cpp">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClCompile>
+    <ClCompile Include="home.cpp">
+      <Filter>playGround\기능\타이틀씬</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
